@@ -19,7 +19,7 @@ Instructions
 
   npm run start
 
-3)Move into the api folder and to set up json server enter command :
+3) Move into the api folder and to set up json server enter command :
 
   npm install
 
