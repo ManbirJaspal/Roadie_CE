@@ -68,7 +68,6 @@ export class AddReview extends Component {
   show = (dimmer) => () => this.setState({ dimmer, open: true })
   close = () => {
     this.setState({ open: false });
-    this.setState({errors: [] });
   }
 
   onSubmit = async (event) => {
