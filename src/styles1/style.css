@@ -1,0 +1,153 @@
+.main {
+  max-width: 950px;
+  background-color: #FFF;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+.product-container {
+  display: flex;
+  max-width:900px;
+}
+
+.customer-reviews-container {
+  width: 900px;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .customer-reviews-container {
+    flex-direction: column;
+  }
+}
+
+.customer-reviews-container > div:nth-of-type(1) {
+  display: flex;
+  align-items: flex-start;
+  float: left;
+}
+
+.product-description {
+  margin-left: 3%;
+}
+
+.btn-container {
+  float:right;
+  display:flex;
+  align-self: right;
+}
+
+.ui.progress{
+  background: white;
+}
+
+.ui.progress[data-percent="0"] .bar .progress {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.ui.progress[data-percent="0"] .bar {
+  background:transparent;
+}
+
+
+.ratings {
+  max-width: 350px;
+  max-height: 250px;
+}
+
+.ratings > div:nth-of-type(1) {
+  display: flex;
+}
+.rating-bar {
+ display: flex;
+ margin-top: 5%;
+ background-color: white;
+}
+
+.link {
+  color: #FCBE09;
+}
+.link:hover {
+   color: #FCBE09;
+   text-decoration: underline;
+}
+
+.rating-bar-link {
+  margin-top: -3.5px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.progress-bar {
+  width: 185px;
+  margin-top:-4px;
+  margin-left:10px;
+  border:solid 1px;
+  border-radius: 3px;
+  height:27px;
+}
+
+.num-reviews {
+  margin-top: 4%;
+  font-size: 18px ;
+}
+.avg-rating {
+  margin-left: 5%;
+  font-size: 16px;
+}
+
+.cardsList {
+  overflow: auto;
+  max-height: 50vh;
+  padding-top: 2%;
+  padding-bottom: 10px;
+}
+.form-fields {
+  margin-top: 10px;
+}
+.reviewmodal {
+  width: 500px;
+  height: 520px;
+  margin-left: 35%;
+  margin-right: 20%;
+  margin-top: 10%;
+}
+
+.title {
+  text-align:center;
+}
+.modal-form{
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.modal-form label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.modal-form input {
+  margin-top: 10px;
+}
+
+.modal-form textarea {
+  height: 100px;
+  margin-bottom: 10px;
+}
+.dropdown {
+ margin-top: 5px;
+}
+.sr {
+  float :right;
+}
+
+.review {
+  margin-top: 12px;
+  word-wrap: break-word;
+}
+.star-component-div{
+  font-size: 18px;
+}
+
+.list-ren {
+  margin-left: 32%;
+}
