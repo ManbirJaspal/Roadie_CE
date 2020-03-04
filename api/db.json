@@ -39,40 +39,16 @@
       "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra turpis orci, a dignissim dui faucibus quis. Curabitur gravida egestas ex, ut pulvinar ex malesuada eget. Proin pharetra turpis orci, a dignissim dui faucibus quis.",
       "date": "3/02/2020",
       "rating": 2
-    },
-    {
-      "id": 6,
-      "name": "Test User",
-      "title": "Its okay",
-      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra turpis orci, a dignissim dui faucibus quis. Curabitur gravida egestas ex, ut pulvinar ex malesuada eget. Proin pharetra turpis orci, a dignissim dui faucibus quis.",
-      "date": "3/02/2020",
-      "rating": 2
-    },
-    {
-      "id": 7,
-      "name": "Test User",
-      "title": "Perfect",
-      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra turpis orci, a dignissim dui faucibus quis. Curabitur gravida egestas ex, ut pulvinar ex malesuada eget. Proin pharetra turpis orci, a dignissim dui faucibus quis.",
-      "date": "3/02/2020",
-      "rating": 5
-    },
-    {
-      "id": 8,
-      "name": "Test User",
-      "title": "Perfect",
-      "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra turpis orci, a dignissim dui faucibus quis. Curabitur gravida egestas ex, ut pulvinar ex malesuada eget. Proin pharetra turpis orci, a dignissim dui faucibus quis.",
-      "date": "3/02/2020",
-      "rating": 5
     }
   ],
   "stars": [
     {
       "id": 1,
-      "num": 1
+      "num": 0
     },
     {
       "id": 2,
-      "num": 2
+      "num": 1
     },
     {
       "id": 3,
@@ -84,7 +60,7 @@
     },
     {
       "id": 5,
-      "num": 3
+      "num": 1
     }
   ]
 }
