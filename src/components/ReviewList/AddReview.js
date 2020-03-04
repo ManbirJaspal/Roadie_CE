@@ -81,12 +81,11 @@ export class AddReview extends Component {
     }
     this.close();
     await this.props.createReview(this.state.name, this.state.title, this.state.review, this.state.rating );
-    this.props.addtoStars(this.state.rating);
-    this.props.calculateTotalStars();
-    this.props.calculateAverage();
-    this.props.getReviews();
-    this.props.clearList();
-    this.props.getRatingsList();
+    await this.props.addtoStars(this.state.rating);
+    await this.props.calculateTotalStars();
+    await this.props.calculateAverage();
+    await this.props.getReviews();
+    await this.props.getRatingsList();
   }
 
   onCancelClick = () => {
