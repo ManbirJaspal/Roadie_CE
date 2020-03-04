@@ -4,7 +4,7 @@ Roadie coding exercise
 About
 ***************************************************
 
-This project is created using React, Redux and JSON server being used as a fake DB.
+This project is created using React, Redux, Semantic-UI-React and JSON server being used as a fake DB.
 The instructions to run the project are below.
 
 ***************************************************
