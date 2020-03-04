@@ -68,6 +68,7 @@ export class AddReview extends Component {
   show = (dimmer) => () => this.setState({ dimmer, open: true })
   close = () => {
     this.setState({ open: false });
+    this.setState({ errors: []});
   }
 
   onSubmit = async (event) => {
@@ -77,14 +78,20 @@ export class AddReview extends Component {
     if (errors.length > 0) {
       this.setState({ errors });
       return;
+    } else {
+      this.close();
+      await this.props.createReview(this.state.name, this.state.title, this.state.review, this.state.rating );
+      await this.props.addtoStars(this.state.rating);
+      await this.props.calculateTotalStars();
+      await this.props.calculateAverage();
+      await this.props.getReviews();
+      await this.props.getRatingsList();
+      await this.setState({name: ""});
+      await this.setState({title: ""});
+      await this.setState({review: ""});
+      await this.setState({rating: null});
     }
-    this.close();
-    await this.props.createReview(this.state.name, this.state.title, this.state.review, this.state.rating );
-    await this.props.addtoStars(this.state.rating);
-    await this.props.calculateTotalStars();
-    await this.props.calculateAverage();
-    await this.props.getReviews();
-    await this.props.getRatingsList();
+
   }
 
   onCancelClick = () => {
